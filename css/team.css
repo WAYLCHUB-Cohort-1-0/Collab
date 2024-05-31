@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.heading {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  gap: 250px;
+  margin: 30px auto;
+}
+.heading h3 {
+  font-size: 40px;
+}
+.links {
+  display: flex;
+  list-style-type: none;
+  gap: 35px;
+}
+.links li {
+  text-align: center;
+  margin: auto;
+}
+.links li:last-child {
+  width: auto;
+}
+.thumbnail a:only-child:hover {
+  background-color: transparent;
+}
+.links li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #555555;
+  font-weight: 400;
+  padding: 10px 20px;
+}
+.links li a:hover {
+  background-color: rgb(4, 194, 194);
+  border-radius: 25px;
+  color: white;
+}
+
+.hero {
+  background-color: rgb(4, 194, 194);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.text {
+  display: flex;
+  margin-left: 70px;
+  align-items: center;
+  font-size: 50px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+.message {
+  display: flex;
+  margin-left: 100px;
+  align-items: center;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  margin: 20px 0;
+}
+.body-text {
+  padding: 0 70px;
+  text-align: left;
+  line-height: 4vh;
+  font-weight: 600;
+  font-size: 20px;
+}
+.body-text h3 {
+  line-height: 10vh;
+}
+
+input {
+  width: 100%;
+  border-radius: 25px;
+  padding: 10px;
+}
+.group {
+  width: 80%;
+  display: grid;
+  grid-gap: 0 50px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "group1 group1"
+    "group2 group2"
+    "group3 group3"
+    "group4 group4"
+    "group5 group6"
+    "group7 group7";
+}
+.common {
+  margin-bottom: 15px;
+}
+.group1 {
+  grid-area: group1;
+}
+.group2 {
+  grid-area: group2;
+}
+.group3 {
+  grid-area: group3;
+}
+.group4 {
+  grid-area: group4;
+}
+.group5 {
+  grid-area: group5;
+}
+.group6 {
+  grid-area: group6;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: auto 100px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  background-color: rgb(4, 194, 194);
+}
+.btn:hover {
+  background-color: rgb(6, 168, 168);
+}
