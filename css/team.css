@@ -1,0 +1,62 @@
+
+.teamTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2%;
+}
+
+.teamList {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 30%;
+    align-items: center;
+}
+
+.teamList>li {
+
+}
+
+.teamSect {
+   display: flex;
+   justify-content: space-around;
+}
+
+.price {
+    background-color: #b2b0b0;
+    padding: 1%;
+    font-weight: bold;
+    border-radius: 15px;
+    text-align: center;
+    width: 20%;
+}
+
+.cate {
+    font-size: 25px;
+}
+
+.price>p {
+    padding-bottom: 20px;
+}
+
+.price>ul {
+    text-align: left;
+}
+
+.cateP {
+    font-size: 20px;
+}
+
+.secLink {
+    display: flex;
+    justify-content: space-around;
+}
+
+.link>a {
+    text-decoration: none;
+    background-color: aqua;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 50px;
+}
